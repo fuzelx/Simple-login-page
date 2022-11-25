@@ -1,0 +1,96 @@
+body{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: url(blob-scene-haikei\ \(6\).svg);
+    height: 600px;
+    width: 900px;
+    margin-top: 23px;
+    border-radius: 25px;
+    
+    
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ background: url(wave-haikei\ \(4\).svg);
+ border-radius: 15px;
+ width: 300px;
+ height: 450px;
+ margin-right: 55px;
+ box-shadow: 0px 0px 6px 1px #000;
+}
+.group{
+    margin: 12px;
+}
+.label{
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    color: whitesmoke;
+}
+.input{
+    border-radius: 15px;
+    width: 190px;
+    background-color: whitesmoke;
+    border: 1px grey solid;
+    padding: 10px;
+}
+.group .button{
+    background:#004ab8;
+    border-radius: 15px;
+    color: whitesmoke;
+    width: 210px;
+    padding: 11px;
+    border: none;
+    box-shadow: #000 0px 0px 6px 1px;
+
+}
+.dont a{
+    color: #0066FF;
+    text-decoration: none;
+    font-size: 13px;
+}
+.group .button:hover{
+    transform: scale(1.1);
+    background-color: #3882f2;
+}
+@media (max-width: 768px) {
+    .container{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background:white;
+        height: 600px;
+        width: 900px;
+        margin: 20px;
+        border-radius: 25px;
+        
+        
+    }
+    .login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     background: url(wave-haikei\ \(4\).svg);
+     border-radius: 15px;
+     width: 300px;
+     height: 450px;
+    margin: 25px;
+     box-shadow: 0px 0px 6px 1px #000;
+    }
+}
